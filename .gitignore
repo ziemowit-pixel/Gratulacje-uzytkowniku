@@ -1,0 +1,12 @@
+# macOS app bundles and build output
+*.app/
+*.dSYM/
+
+# Optional audio assets must not be committed without distribution rights
+*.mp3
+*.m4a
+*.wav
+*.aiff
+
+# macOS metadata
+.DS_Store
