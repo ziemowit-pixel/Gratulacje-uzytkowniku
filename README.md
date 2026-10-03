@@ -19,7 +19,7 @@ Pokazuje absurdalne okienka, odtwarza kilka dźwięków macOS i zadaje pytania, 
 Na Macu z narzędziami Xcode Command Line Tools, plikiem źródłowym AppleScript oraz plikiem MP3 uruchom:
 
 ```sh
-./make-dmg.sh 1.0.1
+bash make-dmg.sh 1.0.1
 ```
 
 Skrypt tworzy aplikację `.app`, instalator `.pkg` i obraz `.dmg`. Obraz zawiera umowę, którą trzeba zaakceptować przed zamontowaniem. Instalator umieszcza aplikację w `/Applications`. Gotowe pliki pobierzesz z [wydania v1.0.1](https://github.com/ziemowit-pixel/Gratulacje-uzytkowniku/releases/tag/v1.0.1).
