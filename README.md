@@ -16,13 +16,22 @@ Pokazuje absurdalne okienka, odtwarza kilka dźwięków macOS i zadaje pytania, 
 
 ## Uruchomienie ceremonii
 
-Na Macu z narzędziami Xcode Command Line Tools uruchom w Terminalu: osacompile -o "Gratulacje Użytkowniku!.app" "Gratulacje Użytkowniku.applescript"; następnie skopiuj plik „Gratulacje Użytkowniku! - Psiki (192k).mp3” do „Gratulacje Użytkowniku!.app/Contents/Resources/Gratulacje Użytkowniku.mp3” i otwórz aplikację.
+Na Macu z narzędziami Xcode Command Line Tools uruchom w Terminalu:
+
+```sh
+osacompile -o "Gratulacje Użytkowniku!.app" "Gratulacje Użytkowniku.applescript"
+mkdir -p "Gratulacje Użytkowniku!.app/Contents/Resources"
+cp "Gratulacje Użytkowniku! - Psiki (192k).mp3" "Gratulacje Użytkowniku!.app/Contents/Resources/Gratulacje Użytkowniku.mp3"
+open "Gratulacje Użytkowniku!.app"
+```
 
 Po każdym kliknięciu „OK” komisja otrzymuje jeden naleśnik. Nie pytaj, dlaczego.
 
+Gotowy instalator macOS pobierzesz ze strony [najnowszego wydania](https://github.com/ziemowit-pixel/Gratulacje-uzytkowniku/releases/latest). Instaluje aplikację w `/Applications`. Pakiet jest niepodpisany; macOS może wymagać potwierdzenia otwarcia.
+
 ## Dźwięk
 
-Do repozytorium dołączono plik audio „Gratulacje Użytkowniku!” z filmu kanału Psiki na YouTube: https://www.youtube.com/shorts/x_SJMONahsY. Właściciel projektu potwierdza, że ma licencję na jego użycie i udostępnienie. Aplikacja odtwarza go przy uruchomieniu. Dźwięki systemowe nadal będą ćwierkać, bulgotać i podejmować wątpliwe decyzje.
+Do repozytorium dołączono plik audio „Gratulacje Użytkowniku!” z filmu kanału [Psiki na YouTube](https://www.youtube.com/shorts/x_SJMONahsY). Właściciel projektu potwierdza, że ma licencję na jego użycie i udostępnienie. Skrypt szuka go w `Contents/Resources/Gratulacje Użytkowniku.mp3` i odtwarza przy uruchomieniu. Dźwięki systemowe nadal będą ćwierkać, bulgotać i podejmować wątpliwe decyzje.
 
 ## Licencja
 
