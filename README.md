@@ -16,24 +16,13 @@ Pokazuje absurdalne okienka, odtwarza kilka dźwięków macOS i zadaje pytania, 
 
 ## Uruchomienie ceremonii
 
-Na Macu z narzędziami Xcode Command Line Tools uruchom w Terminalu:
-
-```sh
-osacompile -o "Gratulacje Użytkowniku!.app" "Gratulacje Użytkowniku.applescript"
-open "Gratulacje Użytkowniku!.app"
-```
+Na Macu z narzędziami Xcode Command Line Tools uruchom w Terminalu: osacompile -o "Gratulacje Użytkowniku!.app" "Gratulacje Użytkowniku.applescript"; następnie skopiuj plik „Gratulacje Użytkowniku! - Psiki (192k).mp3” do „Gratulacje Użytkowniku!.app/Contents/Resources/Gratulacje Użytkowniku.mp3” i otwórz aplikację.
 
 Po każdym kliknięciu „OK” komisja otrzymuje jeden naleśnik. Nie pytaj, dlaczego.
 
-## Opcjonalny dźwięk
+## Dźwięk
 
-Masz własny plik audio i prawo go użyć? Włóż go do:
-
-```text
-Gratulacje Użytkowniku!.app/Contents/Resources/Gratulacje Użytkowniku.mp3
-```
-
-Nie masz MP3? Spokojnie. Dźwięki systemowe nadal będą ćwierkać, bulgotać i podejmować wątpliwe decyzje.
+Do repozytorium dołączono plik audio „Gratulacje Użytkowniku!” z filmu kanału Psiki na YouTube: https://www.youtube.com/shorts/x_SJMONahsY. Właściciel projektu potwierdza, że ma licencję na jego użycie i udostępnienie. Aplikacja odtwarza go przy uruchomieniu. Dźwięki systemowe nadal będą ćwierkać, bulgotać i podejmować wątpliwe decyzje.
 
 ## Licencja
 
