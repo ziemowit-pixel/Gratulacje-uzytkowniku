@@ -1,24 +1,40 @@
-# Gratulacje Użytkowniku!
+# GRATULACJE UŻYTKOWNIKU!!!
 
-Niewielka aplikacja-żart dla macOS napisana w AppleScript. Pokazuje serię absurdalnych okienek i odtwarza systemowe efekty dźwiękowe. Opcjonalny podkład MP3 nie jest dołączony do repozytorium.
+## Oficjalny dokument absolutnie niepotrzebny
 
-## Budowanie
+Witaj, wędrowcze. Jeśli czytasz ten tekst, to znaczy, że:
 
-1. Otwórz Terminal w systemie macOS z zainstalowanymi narzędziami Xcode Command Line Tools.
-2. W katalogu projektu uruchom:
+1. masz internet;
+2. znalazłeś przycisk „OK” przynajmniej raz w życiu;
+3. ziemniak z działu kadr zatwierdził Ci dostęp.
 
-   ```sh
-   osacompile -o "Gratulacje Użytkowniku!.app" "Gratulacje Użytkowniku.applescript"
-   ```
+Gratulujemy. Twoja nagroda to **honorowy tytuł Mistrza Klikania OK**. Trofea wysyłamy gołębiem. Gołąb jest na przerwie.
 
-3. Opcjonalnie, jeśli masz prawo do użycia pliku audio, skopiuj go do:
+## Co robi ten projekt?
 
-   ```text
-   Gratulacje Użytkowniku!.app/Contents/Resources/Gratulacje Użytkowniku.mp3
-   ```
+Pokazuje absurdalne okienka, odtwarza kilka dźwięków macOS i zadaje pytania, na które nawet komisja naleśników nie zna odpowiedzi. Nie przyznaje prawdziwych nagród, nie zbiera danych i nie wie, gdzie schował się Twój iPhone 6S.
 
-Aplikacja działa również bez opcjonalnego MP3. Dodatkowe efekty są odtwarzane z biblioteki dźwięków macOS.
+## Uruchomienie ceremonii
 
-## Uruchamianie
+Na Macu z narzędziami Xcode Command Line Tools uruchom w Terminalu:
 
-Otwórz `Gratulacje Użytkowniku!.app` w Finderze. To wyłącznie żart — aplikacja nie przyznaje nagród i nie zbiera danych.
+```sh
+osacompile -o "Gratulacje Użytkowniku!.app" "Gratulacje Użytkowniku.applescript"
+open "Gratulacje Użytkowniku!.app"
+```
+
+Po każdym kliknięciu „OK” komisja otrzymuje jeden naleśnik. Nie pytaj, dlaczego.
+
+## Opcjonalny dźwięk
+
+Masz własny plik audio i prawo go użyć? Włóż go do:
+
+```text
+Gratulacje Użytkowniku!.app/Contents/Resources/Gratulacje Użytkowniku.mp3
+```
+
+Nie masz MP3? Spokojnie. Dźwięki systemowe nadal będą ćwierkać, bulgotać i podejmować wątpliwe decyzje.
+
+## Licencja
+
+Licencja nie została jeszcze zapytana, czy chce brać udział w tym projekcie.
