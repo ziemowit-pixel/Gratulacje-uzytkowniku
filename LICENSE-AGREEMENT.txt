@@ -1,0 +1,25 @@
+UMOWA UŻYTKOWANIA — GRATULACJE UŻYTKOWNIKU! 1.0.1
+
+Przed zamontowaniem obrazu „Gratulacje Użytkowniku!” przeczytaj tę umowę. Wybranie „Agree” oznacza zgodę na poniższe warunki. Jeśli się nie zgadzasz, wybierz „Disagree” — obraz nie zostanie zamontowany, a gołąb nie będzie miał do Ciebie pretensji.
+
+1. Co instalujesz?
+
+Jest to niewielka aplikacja-żart dla macOS. Wyświetla serię absurdalnych okien dialogowych, odtwarza dołączony dźwięk oraz efekty dźwiękowe systemu macOS. Informacje o wygranej i nagrodach są elementem żartu. Aplikacja nie przyznaje prawdziwych nagród, nie jest powiązana z Apple, Sony ani Samsungiem i nie zbiera ani nie wysyła danych użytkownika.
+
+2. Zasady korzystania
+
+Możesz zainstalować i uruchamiać aplikację dla zabawy. Nie traktuj komunikatów o nagrodach jako prawdziwej obietnicy. Nie używaj aplikacji do wprowadzania innych osób w błąd co do istnienia nagród, zbierania ich danych ani podszywania się pod producentów wymienionych urządzeń.
+
+3. Dźwięk i znaki towarowe
+
+Dźwięk jest dołączony na podstawie uprawnień deklarowanych przez właściciela projektu. Źródło dźwięku podano w README repozytorium. Nazwy iPhone, PlayStation i Galaxy służą wyłącznie do opisania żartu; prawa do tych nazw i znaków należą do ich właścicieli.
+
+4. Brak gwarancji
+
+Aplikacja jest dostarczana „tak jak jest”, jako projekt humorystyczny. Może nie działać na każdej wersji macOS. Instalator nie jest podpisany ani notaryzowany przez Apple; system może pokazać ostrzeżenie bezpieczeństwa.
+
+5. Akceptacja
+
+Klikając „Agree”, potwierdzasz, że rozumiesz żartobliwy charakter aplikacji, wiesz, że nie otrzymasz prawdziwej nagrody, i zgadzasz się na zamontowanie obrazu w celu uzyskania dostępu do instalatora. W przeciwnym razie kliknij „Disagree”.
+
+Komisja naleśników nie jest stroną tej umowy. Gołąb również.
