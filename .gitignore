@@ -1,9 +1,10 @@
 # macOS app bundles and build output
 *.app/
 *.dSYM/
+*.pkg
+*.dmg
 
-# Optional audio assets must not be committed without distribution rights
-*.mp3
+# Other audio files are ignored; the licensed project MP3 is intentionally tracked.
 *.m4a
 *.wav
 *.aiff
