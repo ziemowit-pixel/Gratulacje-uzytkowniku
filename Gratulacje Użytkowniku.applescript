@@ -1,8 +1,10 @@
 on run
-	set soundPath to (POSIX path of (path to me)) & "Contents/Resources/Gratulacje Użytkowniku.mp3"
-	if (do shell script "/usr/bin/test -f " & quoted form of soundPath & " && /usr/bin/printf yes || /usr/bin/printf no") is "yes" then
+	try
+		set soundPath to POSIX path of (path to resource "Gratulacje Użytkowniku.mp3" in bundle (path to me))
 		do shell script "/usr/bin/afplay " & quoted form of soundPath & " >/dev/null 2>&1 &"
-	end if
+	on error errorMessage number errorNumber
+		display alert "Nie udało się uruchomić dźwięku" message (errorMessage & " (" & errorNumber & "). Ceremonia będzie kontynuowana bez MP3.") as warning
+	end try
 	display dialog "Gratulacje użytkowniku! Zostałeś wybrany jako dzisiejszy zwycięzca darmowego iPhone 6S, PlayStation 4 lub Samsung Galaxy S6! Kliknij OK, aby wybrać nagrodę, zanim odbierze ją ktoś inny!" buttons {"OK"} default button "OK" with title "Gratulacje Użytkowniku!" with icon caution
 	playEffect("Frog")
 	display dialog "Żart! Twoją nagrodą jest honorowy tytuł Mistrza Klikania OK. Niestety, dostawa zaszczytów może potrwać do 6–8 dni roboczych. 😄" buttons {"OK"} default button "OK" with title "Gratulacje Użytkowniku!"
