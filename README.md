@@ -39,5 +39,4 @@ Tekst umowy przed zamontowaniem znajduje się w [`LICENSE-AGREEMENT.txt`](LICENS
 Informacje o wygranej są żartem. Aplikacja nie przyznaje nagród, nie zbiera danych i nie jest powiązana z Apple, Sony ani Samsungiem. Pakiet nie jest podpisany ani notaryzowany przez Apple, więc macOS może pokazać ostrzeżenie.
 
 ## Licencja
-
-Licencja nie została jeszcze zapytana, czy chce brać udział w tym projekcie.
+Pobieraj i forkuj
